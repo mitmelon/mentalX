@@ -12,7 +12,6 @@ use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;
 use Slim\Routing\RouteCollectorProxy;
-use Manomite\Mouth\Neck;
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
@@ -27,7 +26,7 @@ ini_set('log_errors', true);
 ini_set('error_log', SYSTEM_DIR . '/errors/index.log');
 ini_set('log_errors_max_len', 1024);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//$_SERVER['REQUEST_URI'] = substr($_SERVER['REQUEST_URI'], (strlen('/mentalx')));
 try {
 
     $app = AppFactory::create();

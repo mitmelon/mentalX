@@ -1,0 +1,36 @@
+{
+	"description": "A Simple but Powerful Flat File Database Storage.",
+	"keywords": ["filebase", "key-value","file-files", "flat", "file", "database", "document", "flat-file", "serverless"],
+	"name": "tmarois/filebase",
+	"homepage": "https://github.com/tmarois/Filebase",
+	"type": "package",
+	"licence": "MIT",
+
+	"authors": [
+        {
+            "name": "Timothy Marois",
+            "email": "timothymarois@gmail.com"
+        }
+    ],
+
+	"require": {
+		"php": ">=5.6",
+		"paragonie/halite": "5"
+	},
+
+	"require-dev": {
+		"php-coveralls/php-coveralls": "^2.0",
+		"phpunit/phpunit": "5.*",
+		"symfony/yaml": "^3.4"
+	},
+
+	"suggest": {
+        "symfony/yaml": "Allows Yaml format"
+    },
+
+	"autoload": {
+		"psr-4": {
+			"Filebase\\": "src/"
+		}
+	}
+}

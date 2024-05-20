@@ -21,10 +21,10 @@
 
     }
   },
-  "description": "Advanced REST API email and sms security system that protects emails and sms inbox from spam and cyber threats. Perform email &amp; sms grouping, notifications and other interesting features.",
+  "description": "Manomite framework",
   "license": "MIT",
   "minimum-stability": "stable",
-  "name": "mitmelon/eye-mail",
+  "name": "mitmelon/mentalx",
   "prefer-stable": true,
   "repositories": [
     {
@@ -37,19 +37,11 @@
     },
     {
       "type": "vcs",
-      "url": "https://github.com/mitmelon/yasumi"
-    },
-    {
-      "type": "vcs",
       "url": "https://github.com/mitmelon/Filebase"
     },
     {
       "type": "vcs",
       "url": "https://github.com/mitmelon/2fa-library"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/mitmelon/bsc-php"
     }
   ],
   "require": {
@@ -73,7 +65,6 @@
     "league/route": "^5.1",
     "m1/vars": "dev-master",
     "matomo/device-detector": "^4.2.3",
-    "mpdf/mpdf": "^8.1",
     "nesbot/carbon": "^2.67",
     "nyholm/psr7": "^1.5",
     "paragonie/halite": "^5",
@@ -91,8 +82,6 @@
     "tmarois/filebase": "dev-master",
     "symfony/rate-limiter": "^6.4",
     "monolog/monolog": "^3",
-    "picqer/php-barcode-generator": "^2.4",
-    "thiagoalessio/tesseract_ocr": "^2.13",
     "tectalic/openai": "^1.6"
   },
   "type": "library"
